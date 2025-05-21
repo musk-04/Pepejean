@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pepe Jeans India</title>
+  <link rel="stylesheet" href="Homepage.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon-01.jpg">
+</head>
+<body>
+
+  <!-- Header-->
+<header class="main-header">
+  <div class="logo"><a href="#"><img src="Logo.png" alt="Pepe Jeans Logo"></a></div>
+  <input type="text" class="search-bar" placeholder="Search for products">
+  <div class="nav-icons">
+    <a href="account.html"><img src="user.png" alt="Account"></a>
+    <label for="cart-toggle"><img src="cart.png" alt="Cart"></label>
+    <label for="menu-toggle"><img src="list.png" alt="Menu"></label>
+  </div>
+</header>
+
+<!-- Menu bar-->
+<input type="checkbox" id="menu-toggle" hidden>
+<div class="side-menu">
+  <label for="menu-toggle" class="close-btn">&times;</label> 
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="categories.html">Categories</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="region.html">Region</a></li>
+  </ul>
+</div>
+
+
+<!-- Shopping cart -->
+<input type="checkbox" id="cart-toggle" hidden>
+<div class="cart-card">
+  <label for="cart-toggle" class="close-btn">&times;</label>
+  <div class="floating-cart">
+    <div class="cart-content">
+      <!-- Item1-->
+      <input type="checkbox" id="remove-item-1" hidden>
+      <div class="cart-item" id="item-1">
+        <label for="remove-item-1" class="remove-btn">&times;</label>
+        <img src="product1.webp" alt="Denim Jacket" />
+        <div class="cart-info">
+          <strong>Pepe Classic winter sweatshirt</strong><br>
+          ₹2,499
+          <div class="cart-qty">
+            Qty: 1
+          </div>
+        </div>
+      </div>
+
+      <!-- Item2 -->
+      <input type="checkbox" id="remove-item-2" hidden>
+      <div class="cart-item" id="item-2">
+        <label for="remove-item-2" class="remove-btn">&times;</label>
+        <img src="product2.jpeg" alt="Canvas Shoes" />
+        <div class="cart-info">
+          <strong>Skinny Denim jeans</strong><br>
+          ₹1,999
+          <div class="cart-qty">
+            Qty: 1
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Cart Footer -->
+    <div class="cart-footer">
+      <p>Total: ₹4,498</p>
+      <button class="checkout-btn">Checkout</button>
+      <br>
+      <a href="#" class="add-more">+ Add More Items</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Hero Banner 1 with Video -->
+<section class="hero-banner video-banner">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="banner1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <img src="Logo.png" alt="Pepe Jeans" class="hero-logo">
+  <a href="#footer" class="down-arrow">&#8595;</a>
+</section>
+
+<!--catalogue1-->>
+<section id="collections" class="hover-gallery">
+<section class="hover-gallery">
+  <h2>Explore the Collection</h2>
+  <div class="image-row">
+    <div class="image-card" style="background-image: url('jeans.jpg')">
+      <div class="overlay">Explore it "The Genz way"</div>
+    </div>
+    <div class="image-card" style="background-image: url('dress.jpg')">
+      <div class="overlay">Denim Dresses</div>
+    </div>
+    <div class="image-card" style="background-image: url('jeans1.webp')">
+      <div class="overlay">The Minimal White</div>
+    </div>
+    <div class="image-card" style="background-image: url('jackets.webp')">
+      <div class="overlay">Jackets</div>
+    </div>
+    <div class="image-card" style="background-image: url('product1.webp')">
+      <div class="overlay">Classic Pepe</div>
+    </div>
+    <div class="image-card" style="background-image: url('product2.jpeg')">
+      <div class="overlay">Skinny Jeans</div>
+    </div>
+    <div class="image-card" style="background-image: url('product3.jpg')">
+      <div class="overlay">BaisC Tees</div>
+    </div>
+    <div class="image-card" style="background-image: url('shirt.webp')">
+      <div class="overlay">Summer Shirts</div>
+    </div>
+  </div>
+</section>
+</section>
+
+<!-- Hero Banner 2 -->
+<section class="hero-banner" style="background-image: url('banner2.webp');">
+  <img src="Logo.png" alt="Pepe Jeans" class="hero-logo">
+  <a href="#footer" class="down-arrow">&#8595;</a>
+</section>
+
+<!-- Catalogue2 -->
+<section id="collections" class="hover-gallery">
+<section class="hover-gallery">
+  <h2>Very Pepe</h2>
+  <div class="image-row">
+    <div class="image-card" style="background-image: url('p2.jpg')">
+      <div class="overlay">Spring Trenchcoats</div>
+    </div>
+    <div class="image-card" style="background-image: url('p3.webp')">
+      <div class="overlay">denim skirts</div>
+    </div>
+    <div class="image-card" style="background-image: url('p4.jpeg')">
+      <div class="overlay">Maxi dresses</div>
+    </div>
+    <div class="image-card" style="background-image: url('p5.jpeg')">
+      <div class="overlay">pepe denim</div>
+    </div>
+    <div class="image-card" style="background-image: url('p6.jpg')">
+      <div class="overlay">Canvas Classics</div>
+    </div>
+   
+</section>
+</section>
+
+<!-- Footer-->
+<footer>
+  <div class="footer-left">
+    <div class="footer-section">
+      <h4>Get in Touch</h4>
+      <p>Contact us<br>Email: info@pepejeans.org</p>
+    </div>
+    <div class="footer-section">
+      <h4>Our Company</h4>
+      <p>About Us<br>Contact Us<br>Jobs</p>
+    </div>
+    <div class="footer-section">
+      <h4>Customer Support</h4>
+      <p>Disclaimer<br>Shipping & Handling<br>Return & Exchange<br>FAQs</p>
+    </div>
+    <div class="footer-section">
+      <h4>Policy</h4>
+      <p>Track Your Order<br>Privacy Policy</p>
+    </div>
+  </div>
+  <div class="subscribe">
+    <h4>Subscribe</h4>
+    <input type="email" placeholder="Your Email">
+    <button>Subscribe</button>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Pepe Jeans. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
